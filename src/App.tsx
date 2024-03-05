@@ -2,7 +2,8 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 // import User from './components/User';
-import UserDemo from './components/UserDemo';
+// import UserDemo from './components/UserDemo';
+import DataFatch from './components/DataFatch';
 
 // const user1 = {  // create a objects
 //   name:'ibn alam',
@@ -14,25 +15,25 @@ import UserDemo from './components/UserDemo';
 
 
 
-const users = [
+// const users = [
   
-  {
-    id: 1,
-    name: "ibnalam",
-    email: "ibnalam6@gmail.com",
-    age: 32,
+//   {
+//     id: 1,
+//     name: "ibnalam",
+//     email: "ibnalam6@gmail.com",
+//     age: 32,
     
-  },
+//   },
   
-  {
-    id: 2,
-    name: "arafat",
-    email: "ibnalam6@gmail.com",
-    age: 33,
+//   {
+//     id: 2,
+//     name: "arafat",
+//     email: "ibnalam6@gmail.com",
+//     age: 33,
   
-  }
+//   }
 
-]
+// ]
 
 
 
@@ -51,7 +52,14 @@ function App() {
         lang={["bangla", "english"]}/>
         <p></p> */}
 
-          <UserDemo users={users}/>
+          {/* <UserDemo users={users}/> */}  
+
+          <DataFatch status="error"/>
+
+
+
+
+
 
 
 
