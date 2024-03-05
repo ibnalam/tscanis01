@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 // import User from './components/User';
@@ -41,7 +41,19 @@ import Styleprops from './components/Styleprops';
 
 
 
+
+
+
 function App() {
+  const [count, setCount] = useState(0)
+
+  const handleIncrement = () => {
+    setCount(count + 1)
+  }
+  const handledecrement = () => {
+    setCount(count - 1)
+  }
+
   return (
     <div className="App">
        <h2>User Manegement</h2>
@@ -62,7 +74,30 @@ function App() {
         {/* <Button>Click me </Button> */}
 
         {/* <Post/> */}
-        <Styleprops mystyle={{color: "red"}}/>
+        {/* <Styleprops mystyle={{color: "red"}}/> */}
+
+
+
+
+
+
+
+
+
+
+
+        {/*  hooks */}
+        <h1>Count : {count}</h1>
+        <button onClick={handleIncrement}>Increment</button>
+        <button  onClick={handledecrement}>Decrement</button>
+
+
+
+
+
+
+
+      
 
 
 
