@@ -4,6 +4,8 @@ import './App.css';
 // import User from './components/User';
 // import UserDemo from './components/UserDemo';
 import DataFatch from './components/DataFatch';
+import Button from './components/Button';
+import Post from './components/Post';
 
 // const user1 = {  // create a objects
 //   name:'ibn alam',
@@ -54,8 +56,11 @@ function App() {
 
           {/* <UserDemo users={users}/> */}  
 
-          <DataFatch status="error"/>
+          {/* <DataFatch status="error"/> */}
 
+        {/* <Button>Click me </Button> */}
+
+        <Post/>
 
 
 
