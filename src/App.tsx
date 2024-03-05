@@ -6,6 +6,7 @@ import './App.css';
 import DataFatch from './components/DataFatch';
 import Button from './components/Button';
 import Post from './components/Post';
+import Styleprops from './components/Styleprops';
 
 // const user1 = {  // create a objects
 //   name:'ibn alam',
@@ -60,7 +61,8 @@ function App() {
 
         {/* <Button>Click me </Button> */}
 
-        <Post/>
+        {/* <Post/> */}
+        <Styleprops mystyle={{color: "red"}}/>
 
 
 
