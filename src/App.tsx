@@ -8,6 +8,7 @@ import Button from './components/Button';
 import Post from './components/Post';
 import Styleprops from './components/Styleprops';
 import Newuser from './components/Newuser';
+import Counter from './components/Counter';
 
 // const user1 = {  // create a objects
 //   name:'ibn alam',
@@ -98,6 +99,13 @@ function App() {
 
         {/* typing event */}
         {/* <Newuser /> */}
+
+
+
+
+        {/* usereducer */}
+        <Counter/>
+
 
 
 
