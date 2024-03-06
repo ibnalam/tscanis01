@@ -7,6 +7,7 @@ import DataFatch from './components/DataFatch';
 import Button from './components/Button';
 import Post from './components/Post';
 import Styleprops from './components/Styleprops';
+import Newuser from './components/Newuser';
 
 // const user1 = {  // create a objects
 //   name:'ibn alam',
@@ -45,14 +46,14 @@ import Styleprops from './components/Styleprops';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
-  const handleIncrement = () => {
-    setCount(count + 1)
-  }
-  const handledecrement = () => {
-    setCount(count - 1)
-  }
+  // const handleIncrement = () => {
+  //   setCount(count + 1)
+  // }
+  // const handledecrement = () => {
+  //   setCount(count - 1)
+  // }
 
   return (
     <div className="App">
@@ -87,9 +88,19 @@ function App() {
 
 
         {/*  hooks */}
-        <h1>Count : {count}</h1>
+        {/* <h1>Count : {count}</h1>
         <button onClick={handleIncrement}>Increment</button>
-        <button  onClick={handledecrement}>Decrement</button>
+        <button  onClick={handledecrement}>Decrement</button> */}
+
+
+
+
+
+        {/* typing event */}
+        {/* <Newuser /> */}
+
+
+
 
 
 
